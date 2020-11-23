@@ -1,0 +1,2 @@
+docker run --name sqlserver.2017 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Welcome@123' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest
+docker run -d -p 27017:27017 mongo:3.6
